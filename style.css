@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+h1 {
+    color: red;
+    background: white;
+    font-size: 64px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+    text-shadow: 10px 10px 10px #ff0000;
+}
+
+p {
+    color: blue;
+    font-size: 30px;
+    font-weight: 50;
+    /*font-style: italic;
+    line-height: 50px;
+    letter-spacing: 10px;
+    word-spacing: 40px;
+    text-align: center;*/
+    text-transform: capitalize;
+    text-decoration: underline;
+
+}
+
+button {
+    background: green;
+    border-color: darkgreen;
+}
+
+#titulo {
+    color: blue;
+    font-size: 55px;
+}
+
+#paragrafo {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: #ff1493;
+    margin: 10px;
+    display: inline-block;
+
+}
+
+.box-2 {
+    background: #ffff00;
+
+
+}
+
+.box-3 {
+    background: #0003ff;
+
+
+}
+
+/* margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 5px;
+
+    margin: 10px 50px 10px 5px;
+    /*      12h  15h  18h  21h   */
+
+
+    /* 
+
+    - BLOCK
+ Vem como padrão: div, section, p, h1, h2, ul, li, article...
+ 
+ - Ocupa 100% da largura do elemento pai
+ - Sempre ocupa toda a sua linha
+ - Altura definida de acordo com o conteúdo
+ - Podemos definir height e width
+ - Podemos definir valores de margin
+
+  - INLINE
+  vem como padrao: a, span, b, i ...
+
+  - Elementos em linha
+  - Não permite alterar height e width
+  - Não podemos definir valores de margin top e bottom
+  - Ganha comportamento de uma palavra
+
+  - INLINE-BLOCK
+
+  - Elementos em linha, porém com caracteriscas do display Block
+  - Altura e largura podem ser alteradas */
